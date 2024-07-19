@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .nav-links-wrapper {
+    display: flex;
+    gap: 32px;
+  }
+
+  a {
+    display: flex;
+    gap: 8px;
+    transition: all 100ms ease-in;
+    font-size: 24px;
+    white-space: nowrap;
+
+    &:hover {
+      color: darkred;
+    }
+  }
+
+  .phone {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
