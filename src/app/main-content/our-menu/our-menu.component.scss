@@ -1,0 +1,30 @@
+section {
+  min-height: 100vh;
+  background: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+
+  h2 {
+    margin-top: 32px;
+    font-size: 40px;
+  }
+
+  .food-and-pricing {
+    margin-bottom: 32px;
+  }
+
+  .foods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    gap: 16px;
+  }
+
+  img {
+    width: 300px;
+  }
+}
